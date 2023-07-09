@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Restaurant/static/css/main.57654f85.css",
+    "main.js": "/Restaurant/static/js/main.b875a503.js",
+    "static/js/787.a2f6b77c.chunk.js": "/Restaurant/static/js/787.a2f6b77c.chunk.js",
+    "static/media/bruchetta.svg": "/Restaurant/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/Restaurant/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/Restaurant/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/lemon.jpg": "/Restaurant/static/media/lemon.6e8408046c8829f0208f.jpg",
+    "static/media/constantin-mutaf-SxrgpMXU4hs-unsplash.jpg": "/Restaurant/static/media/constantin-mutaf-SxrgpMXU4hs-unsplash.d86f2d3e33dfc13ae1ca.jpg",
+    "static/media/Logo.svg": "/Restaurant/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/rating (2).png": "/Restaurant/static/media/rating (2).e353cf9b3d1bf525a59c.png",
+    "static/media/footer-logo.png": "/Restaurant/static/media/footer-logo.4470f9c9e815da98dbb3.png",
+    "index.html": "/Restaurant/index.html",
+    "main.57654f85.css.map": "/Restaurant/static/css/main.57654f85.css.map",
+    "main.b875a503.js.map": "/Restaurant/static/js/main.b875a503.js.map",
+    "787.a2f6b77c.chunk.js.map": "/Restaurant/static/js/787.a2f6b77c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57654f85.css",
+    "static/js/main.b875a503.js"
+  ]
+}
