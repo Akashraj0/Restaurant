@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Booking{
+    margin: 10rem auto ;
+    text-align: center;
+}
+.imgtable{
+    display: block;
+    margin: 3rem auto;
+    width: 50%;
+    border-radius: 16px;
+}
+.form{
+    text-align: center;
+}
+.form div{
+    padding: 1rem;
+}
+.form-head{
+    text-align: center;
+    margin: 8rem auto;
+}
+.field-input > input,select{
+    padding: 0.5rem 5rem;
+    border-radius: 16px;
+    border:2px solid black;
+}
+.field-input > label{
+    font-weight: bold;
+    font-size: larger;
+}
+.btn3{
+    display: block;
+    margin: auto;
+    background-color: #F4CE14;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    max-width: 17%;
+    border-radius: 16px;
+    border: 2px solid black;
+}

@@ -1,0 +1,75 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+/* Special section style code */
+.special{
+    margin-top: 15rem;
+}
+.heading{
+    margin-left: 4rem;
+}
+.cards{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    margin: auto;
+}
+.card img{
+    border-radius: 16px 16px 0 0;
+    max-height: 30%;
+}
+.card{
+    width: 80%;
+    margin: auto;
+    background-color: #edefee;
+    padding:auto 1rem;
+    border-radius: 2rem;
+}
+.dish-info{
+    width: 80%;
+    text-align:left;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 1rem;
+}
+.card p{
+    margin: 3rem 1rem;
+    text-align: justify;
+}
+.specials-order-btn{
+    margin: auto 1rem;
+
+}
+.btn1{
+    background-color: #F4CE14;
+    padding: 0.7rem;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    max-width: 10%;
+    margin: 1rem 5rem;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+@media only screen and (max-width:1000px)
+  {
+    .cards{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap: 2rem;
+    }
+    .btn1{
+        max-width: 15%;
+    }
+  }
+  /* @media only screen and (max-width:380px)
+{
+    .special{
+        margin-top: 15rem;
+        width: 55rem;
+    }
+} */

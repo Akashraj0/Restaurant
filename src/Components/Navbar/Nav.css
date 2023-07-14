@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* The Overlay (background) */
+.App{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:1rem auto;
+  flex: 2fr 1fr;
+}
+.Logo{
+  width: 45%;
+  display: flexs
+}
+.Navigation{
+   font-weight: bold;
+}
+.link{
+  padding: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #495E57;
+}
+Link :hover{
+color: #F4CE14;
+}
+.link :active{
+color:#F4CE14
+}
+.btn{
+  background-color: #F4CE14;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: medium;
+}
+.Hamburger{
+  display: none;
+}
+.ham{
+  display: none;
+}
+@media only screen and (max-width:1450px)
+{
+  .Logo > img{
+      display: block;
+      margin: auto;
+      width: 50%;
+  }
+  .Navigation{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      color: black;
+      font-weight: bold;
+      background-color: #F4CE14;
+      left: 0;
+      margin: auto 0.5rem;
+      top: 65px;
+      width: 57%;
+      border-radius: 1rem;
+      text-align: center;
+    }
+    .Navigation1{
+      display: none;
+    }
+    .ham{
+      display: block;
+  }
+}
+
+@media only screen and (max-width:380px)
+{
+  .Logo > img{
+      display: block;
+      margin-left: 16rem;
+
+  }
+  .Navigation{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      list-style: none;
+      color: black;
+      font-weight: bold;
+      background-color: #F4CE14;
+      left: 0;
+      margin: auto 0.5rem;
+      top: 65px;
+      width: 57%;
+      border-radius: 1rem;
+      text-align: center;
+    }
+    .Navigation1{
+      display: none;
+    }
+    .ham{
+      display: block;
+  }
+}
