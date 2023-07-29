@@ -41,6 +41,9 @@
         grid-template-columns: repeat(2,1fr);
         grid-gap: 1rem;
      }
+     .test{
+        height:15rem;
+    }
 }
 /* @media only screen and (max-width:1490px)
 {
